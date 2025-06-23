@@ -1,0 +1,7 @@
+﻿services:
+  devlife.api:
+    image: devlife.api
+    build:
+      context: .
+      dockerfile: DevLife.Api/Dockerfile
+
