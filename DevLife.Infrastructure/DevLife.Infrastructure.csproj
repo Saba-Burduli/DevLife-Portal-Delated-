@@ -6,4 +6,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Data\Configurations\" />
+      <Folder Include="External\AI\" />
+      <Folder Include="External\CodeExecution\" />
+      <Folder Include="External\Github\" />
+    </ItemGroup>
+
 </Project>
