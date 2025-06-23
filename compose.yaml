@@ -5,3 +5,9 @@
       context: .
       dockerfile: DevLife.Api/Dockerfile
 
+  devlife.api-1:
+    image: devlife.api-1
+    build:
+      context: .
+      dockerfile: DevLife.Api/Dockerfile
+
