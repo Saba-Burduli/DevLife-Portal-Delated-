@@ -6,4 +6,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Common\" />
+      <Folder Include="Features\Authentication\Commands\" />
+      <Folder Include="Features\Authentication\DTOs\" />
+      <Folder Include="Features\Authentication\Queries\" />
+      <Folder Include="Features\BugChase\" />
+      <Folder Include="Features\CodeAnalysis\" />
+      <Folder Include="Features\CodeRoast\DTOs\" />
+      <Folder Include="Features\DevDating\" />
+      <Folder Include="Features\MeetingEscape\" />
+    </ItemGroup>
+
 </Project>
