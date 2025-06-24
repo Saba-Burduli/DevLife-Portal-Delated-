@@ -22,4 +22,10 @@
       <Folder Include="Controllers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DevFile.Application\DevFile.Application.csproj" />
+      <ProjectReference Include="..\DevLife.Domain\DevLife.Domain.csproj" />
+      <ProjectReference Include="..\DevLife.Infrastructure\DevLife.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
