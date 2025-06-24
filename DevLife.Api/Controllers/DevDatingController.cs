@@ -7,5 +7,6 @@ namespace DevLife.Api.Controllers
     [ApiController]
     public class DevDatingController : ControllerBase
     {
+        
     }
 }
