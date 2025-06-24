@@ -18,4 +18,8 @@
       <Folder Include="Features\MeetingEscape\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DevLife.Domain\DevLife.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
