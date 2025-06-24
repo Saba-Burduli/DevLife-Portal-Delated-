@@ -13,4 +13,13 @@
       <Folder Include="External\Github\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DevFile.Application\DevFile.Application.csproj" />
+      <ProjectReference Include="..\DevLife.Domain\DevLife.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
